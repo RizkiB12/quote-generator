@@ -19,13 +19,23 @@
       referrerpolicy="no-referrer"
     />
     <!-- CSS Link -->
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Quote Generator</title>
   </head>
   <body>
-    <div>
-      <h1>Quote Generator</h1>
-      <i class="fa-solid fa-quote-left"></i>
+    <div class="container-quote" id="container-quote">
+      <!-- Quote Section Start-->
+      <div class="quote-text">
+        <i class="fa-solid fa-quote-left"></i>
+        <span id="quote"></span>
+      </div>
+      <!-- Quote Section End-->
+
+      <!-- Author Section Start -->
+      <div class="quote-start">
+        <span id="author"></span>
+      </div>
+      <!-- Author Section End -->
     </div>
 
     <!-- Icons Script -->
@@ -37,6 +47,6 @@
     ></script>
 
     <!-- Script Js -->
-    <script src="./script.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
