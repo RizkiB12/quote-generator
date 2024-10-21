@@ -3,54 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Favicon -->
-    <link
-      rel="shortcut icon"
-      href="./assets/img/favicon-16x16.png"
-      type="image/x-icon"
-    />
-
-    <!-- Icons CSS -->
+    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
-    <!-- CSS Link -->
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Quote Generator</title>
+    <title>Random Quote Generator | OnlineITtuts</title>
   </head>
   <body>
-    <div class="container-quote" id="container-quote">
-      <!-- Quote Section Start-->
-      <div class="quote-text">
-        <i class="fa-solid fa-quote-left"></i>
-        <span id="quote"
-          >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate
-          explicabo ipsa eaque error cum ipsum quam veniam totam magnam
-          ducimus.</span
-        >
+    <div class="container">
+      <h2>Quote of the Day</h2>
+      <div class="quote_content">
+        <i class="fa fa-quote-left quote-icon"></i>
+        <p class="quote"></p>
+        <i class="fa fa-quote-right quote-icon"></i>
       </div>
-      <!-- Quote Section End-->
-
-      <!-- Author Section Start -->
-      <div class="quote-author">
-        <span id="author">Kak Gem</span>
+      <p class="author"></p>
+      <div class="social_icons">
+        <ul>
+          <li class="copy"><i class="fas fa-copy"></i></li>
+          <li class="twitter"><i class="fab fa-twitter"></i></li>
+        </ul>
+        <button type="button" class="btn-quote">New Quote</button>
       </div>
-      <!-- Author Section End -->
+      <p class="message">Quote Copied!</p>
     </div>
 
-    <!-- Icons Script -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
-      integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-
-    <!-- Script Js -->
-    <script src="./js/script.js"></script>
+    <script defer src="js/script.js"></script>
   </body>
 </html>
