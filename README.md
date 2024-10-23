@@ -58,5 +58,4 @@ This project uses the **Quotable API** to fetch random quotes. You can learn mor
 
 Feel free to contribute by forking the repository and submitting a pull request. All ideas to enhance the functionality or improve the UI are welcome!
 
-
 ---
