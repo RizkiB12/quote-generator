@@ -1,5 +1,3 @@
----
-
 # Quote Generator
 
 **Quote Generator** is a simple web application that fetches and displays random quotes using the Quotable API. The project is designed to provide inspirational, motivational, and thought-provoking quotes in a clean and minimalist UI.
